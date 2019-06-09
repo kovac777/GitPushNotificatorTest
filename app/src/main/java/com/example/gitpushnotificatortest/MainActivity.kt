@@ -12,6 +12,5 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("logi", "onCreate : ")
         Log.d("logi", "onCreate : ")
-        Log.d("logi", "onCreate : ")
     }
 }
