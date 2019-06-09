@@ -11,12 +11,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Log.d("logi", "onCreate : ")
-
-        Log.d("logi", "onCreate : 2")
-        Log.d("logi", "onCreate : ")
-        Log.d("logi", "onCreate : ")
-        Log.d("logi", "onCreate : ")
-        Log.d("logi", "onCreate : ")
-        Log.d("logi", "onCreate : ")
     }
 }
