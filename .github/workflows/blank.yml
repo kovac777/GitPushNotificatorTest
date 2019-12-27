@@ -1,0 +1,16 @@
+name: Telegram notification
+
+on: push
+
+jobs:
+  notify:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: appleboy/telegram-action@0.0.3
+        name: Telegram Notify
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          args: The ${{ github.event_name }} event triggered first step.
